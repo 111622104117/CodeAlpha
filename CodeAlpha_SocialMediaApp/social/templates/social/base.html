@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Social Media Platform</title>
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+  <nav>
+    <h1><a href="{% url 'home' %}">MySocialApp</a></h1>
+    {% if user.is_authenticated %}
+      <p>Hi {{ user.username }} | <a href="{% url 'logout' %}">Logout</a></p>
+    {% else %}
+      <a href="{% url 'login' %}">Login</a> | 
+      <a href="{% url 'signup' %}">Sign Up</a>
+    {% endif %}
+  </nav>
+  <hr>
+  <main>
+    {% block content %}{% endblock %}
+  </main>
+</body>
+</html>
