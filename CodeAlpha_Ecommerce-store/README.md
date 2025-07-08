@@ -15,7 +15,7 @@ A simple e-commerce web application built with Django, Bootstrap, and SQLite. Th
 
 
 ## Project Structure
-'''
+```text
 CodeAlpha\_Ecommerce-store/
 ├── config/                - Django project settings and URLs
 │   ├── **init**.py
@@ -37,7 +37,7 @@ CodeAlpha\_Ecommerce-store/
 ├── db.sqlite3             - SQLite database file
 ├── manage.py              - Django management script
 └── README.md
-'''
+```
 
 ## Prerequisites
 
