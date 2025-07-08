@@ -1,4 +1,4 @@
-Ecommerce Store
+## Ecommerce Store
 
 A simple e-commerce web application built with Django, Bootstrap, and SQLite. This project demonstrates fundamental e-commerce features including product listings, detail pages, shopping cart, checkout, and user authentication.
 
