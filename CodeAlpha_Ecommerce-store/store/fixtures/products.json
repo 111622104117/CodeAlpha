@@ -1,0 +1,52 @@
+[
+  {
+    "model": "store.product",
+    "pk": 1,
+    "fields": {
+      "name": "Apple MacBook Air",
+      "description": "Lightweight laptop with M1 chip.",
+      "price": "999.99",
+      "image": ""
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 2,
+    "fields": {
+      "name": "Google Pixel 6",
+      "description": "Latest Pixel smartphone with Android 12.",
+      "price": "699.00",
+      "image": ""
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 3,
+    "fields": {
+      "name": "Sony WH-1000XM4",
+      "description": "Noise cancelling wireless headphones.",
+      "price": "349.99",
+      "image": ""
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 4,
+    "fields": {
+      "name": "Nintendo Switch",
+      "description": "Portable gaming console.",
+      "price": "299.99",
+      "image": ""
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 5,
+    "fields": {
+      "name": "Dyson V11 Vacuum",
+      "description": "Powerful cordless vacuum cleaner.",
+      "price": "599.00",
+      "image": ""
+    }
+  }
+]
