@@ -1,0 +1,17 @@
+{% extends 'social/base.html' %}
+
+{% block content %}
+<h2>News Feed</h2>
+<p><a href="{% url 'post_create' %}">+ New Post</a></p>
+
+{% for post in posts %}
+  <div style="border: 1px solid #ccc; margin-bottom: 10px; padding: 10px;">
+    <p><strong>{{ post.author }}</strong> posted:</p>
+    <p>{{ post.content }}</p>
+    <small>{{ post.created_at }}</small>
+    <p><a href="{% url 'post_detail' post.pk %}">View Details</a></p>
+  </div>
+{% empty %}
+  <p>No posts yet.</p>
+{% endfor %}
+{% endblock %}
